@@ -1,1 +1,31 @@
+Question # 01
 
+Problem in the Code 
+Karel is not facing the right direction after moving in the next row to keep picking beepers correctly.
+Karel may miss the beeper on the last square because pick_beeper() is not called after the loop ends.
+If the World is slightly different, the code may fail as it depends too much on perfect conditions.
+
+Advice for the Student
+
+Pretend you're Karel and walk through your code step by step. It's the easiest way to spot mistakes. When something feels off, slow down and ask yourself, "What is Karel actually doing here?" Also, try testing your code with different world sizes, not just the one for which it was built.
+
+
+
+
+
+
+Question # 02
+
+Problem in the Code
+The function remove_keys_containing_string creates a new dictionary but never returns it or updates the original, so the changes are never used.
+In main(), the result of calling remove_keys_containing_string isn't stored in any variable, meaning even if the function worked correctly, the output would be lost.
+The code removes the items by copying them into a new dictionary, but the original dictionary stays the same.
+
+
+
+Advice for Student 
+
+Think about what happens to your data after a function runs and how the result makes it back to the rest of your program. A quick way to check is to print your dictionary right after calling the function and see if anything actually changed. It's also a good habit to read your own description and ensure that your code actually does what you said it would.  
+
+
+https://docs.google.com/document/d/1beibexAfsKHUV8EerMkBHb_4eST5XzjAlehLBvhXWGg/edit?tab=t.0
