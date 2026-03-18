@@ -1,32 +1,62 @@
-Q1: What is your current occupation?
-I am a Computer Science student 
+Tell Us About Yourself
+1. What is your current occupation?
+Computer Science Student
+
+2. Tell us a little about yourself
+In my free time, I enjoy playing football and basketball. These sports keep me active, build discipline, teamwork, 
+and a competitive spirit, all of which positively influence my professional growth.I also enjoy reading history books
+and watching documentaries about the rise and fall of civilizations. These stories help me understand how societies 
+grow and change over time, and they inspire me to reflect on how technology and knowledge can shape the future.
 
 
-Q2: Tell us a little about yourself:
-I am a Software Engineer who is passionate about AI, machine learning, and web development. I have participated in 
-five international hackathons, leading teams in four of them, which helped me grow as a leader and improve my 
-problem solving skills.
-In my free time, I enjoy playing football and basketball, as both sports keep me active and energized. They also
-help me develop teamwork, discipline, and a competitive spirit, which positively influence my professional growth as well.
 
 
-Q3: What programming experience do you have?
-My programming journey started with Python, where I moved beyond basics and focused deeply on Data Structures and Algorithms 
-to strengthen my problem solving skills. I applied my learning by building practical projects like a calculator, a number
-guessing game, and a quiz application, which sharpened my logical thinking.
-Alongside this, I learned HTML, CSS, and JavaScript to understand how logic connects with user interfaces. Teaching 
-programming remotely as a volunteer further strengthened my concepts and helped me become a more structured and confident
-programmer.
- I have participated in five international hackathons, leading teams in four of them, which helped me grow as a leader and 
-improve my problem solving skills.
-
-
-Q4: It's ok if you don't have any teaching experience!
-I have one year of experience as a volunteer teacher and moderator at an international organization, where I conducted
+Teaching Experience
+I have 1+ year of experience as a volunteer teacher and moderator at an international organization, where I conducted 
 Python training sessions for beginner learners. My focus was not only on teaching syntax, but on building strong logical
 thinking and practical problem solving skills.
-I explain concepts step by step in a clear and structured way, encourage interactive discussions, and guide students to
-think independently so they can apply programming concepts with confidence.
+I explain concepts step by step in a clear and structured way, covering fundamental programming ideas such as variables, 
+loops, conditional statements, functions, and basic data structures.
+Through my teaching, several students successfully improved their programming fundamentals, achieved better academic grades,
+and built their own beginner level projects such as calculators, simple games, and small automation scripts. My goal is to 
+help students not only learn programming but also develop the confidence to solve real problems using code.
+
+
+
+Programming Experience
+I’m proficient in Python, with experience in core programming concepts such as variables, control structures, functions, 
+and Object Oriented Programming (OOP).Currently, I am learning Data Structures and Algorithms, including arrays, strings,
+and basic searching and sorting techniques to improve my problem solving and algorithmic thinking skills.
+To apply these concepts practically, I developed several Python projects including a Calculator Application for performing
+basic arithmetic operations, a Quiz Application that evaluates answers and tracks scores, and Routine IQ, a small productivity
+planner that helps users organize tasks, set priorities, and manage daily routines. These projects strengthened my understanding
+of program structure, user interaction, and logical problem solving.
+
+
+
+
+Karel Debugging
+Problems:
+1) pick_row() is unable to pick last beeper in the row as the loop works only if front is clear.
+2) change_rows() isn't making the karel face in the correct direction. Karel keeps facing upward even after changing the row.
+
+
+Advice to the student:
+You are very close to solving it. You just need to picture it correctly in your mind. Check if the karel is able to reach all 
+the beepers and while changing the row, where do you need the karel to face in order to get to the remaining beepers ?
+
+
+Console Debugging
+Problems:
+1) main() isn’t called at the end of the program. 
+2) new_dictionary is never returned 
+3) Keys are copied to a new dictionary instead of editing the old one.
+
+Advice:
+Always ensure that your function is properly called from the main part of the program. Make sure the function returns the
+correct result so the output can be used later. Check whether you are modifying the intended data structure instead of creating
+unnecessary copies. Finally, carefully compare your code with the task requirements and test it to confirm it behaves as expected.  
+
 
 
 
